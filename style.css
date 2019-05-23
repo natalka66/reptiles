@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'reptile';
+  src: url('190114084332BERNIER-Distressed.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: reptile;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.headPosition {
+  height: 227px;
+  position: relative;
+}
+.headRed {
+  background-color: #c26b4b;
+  flex-grow: 1;
+  height: 227px;
+}
+
+.headLogo {
+  height: 144px;
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -72px;
+  margin-left: -175px;
+}
+
+.headBlack {
+  background-color: #000000;
+  flex-grow: 1;
+}
+
+.triangleDownLeftAngle{
+  width: 50%;
+  height: 50px;
+  background: #ecc35c;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  margin-top: -50px;
+}
+
+.triangleDownRightAngle {
+  width: 50%;
+  height: 50px;
+  background: #ecc35c;
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  margin-top: -50px;
+}
+
+.weKnowBackground {
+  background-color: #ecc35c;;
+  width: 100%;
+  height: 300px;
+}
+
+.weKnowText {
+  text-align: center;
+  color: #cf6542;
+  font-size: 150px;
+}
+
+.weKnowOrange {
+  text-align: center;
+  color: #000000;
+  font-size: 49px;
+}
+
+.triangleUpLeftAngle {
+  width: 50%;
+  height: 50px;
+  background: #ecc35c;
+  clip-path: polygon(100% 0%, 0% 100%, 0% 0%);
+}
+
+.triangleUpRightAngle {
+  width: 50%;
+  height: 50px;
+  background: #ecc35c;
+  clip-path: polygon(100% 100%, 0% 0%, 100% 0%);
+}
+
+
+.rightPartPicture {
+  background-color: #cf6542;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pictureDiv {
+  background-image: url(pictures/lizz-1003046.jpg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headMargin {
+  margin-top: -50px;
+  height: 470px;
+  position: relative;
+}
+
+.bernardoText {
+  position: absolute;
+  top: 203px;
+  left: 50px;
+}
+
+.flexTriangles {
+  position: relative;
+  z-index: 2;
+}
+
+.sizeTextPictureName {
+  font-size: 36px;
+}
+
+.discriptionTextSize{
+  font-size: 27px;
+}
+
+.bernardoRight {
+  color: #edc45d;
+  font-size: 108px;
+  width: 360px;
+}
+
+.allBlack {
+  background-color: #000000;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.allBlackText {
+  text-align: center;
+  font-size: 55px;
+  width: 1023px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.allBlackTextSpan1 {
+  color: #d16544;
+}
+
+.allBlackTextSpan2 {
+  color: #e5bc57;
+}
+
+.triangleDownLeftAngleBlack{
+  width: 50%;
+  height: 50px;
+  background: #000000;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  margin-top: -50px;
+}
+
+.triangleDownRightAngleBlack {
+  width: 50%;
+  height: 50px;
+  background: #000000;
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  margin-top: -50px;
+}
+
+.blackButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.blackButtons .button {
+  font-size: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  border-width: 2px;
+  padding: 5px;
+}
+
+.buttonReptiles {
+  background-color: #cc6341;
+  border-color: #a39690;
+  color: #fafcff;
+}
+
+.buttonComplete {
+  background-color: #638e48;
+  border-color: #a39690;
+  color: #ebc458;
+}
+
+.buttonComprehensive {
+  background-color: #f0c459;
+  border-color: #a39690;
+  color: #cc6a41;
+}
+
+.pictureCregory {
+  background-image: url(pictures/315486.jpg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.pictureCamille {
+  background-image: url(pictures/112015_1758_1.jpg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textCreroryDescription {
+  position: absolute;
+  top: 55px;
+  left: 50px;
+  color: #000000;
+}
+
+.textCreroryDescriptionRight {
+  position: absolute;
+  top: 55px;
+  right: 100px;
+  color: #000000;
+}
+
+
+.triangleDownRightAngleBlack {
+  width: 50%;
+  height: 50px;
+  background: #000000;
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  margin-top: -50px;
+}
+
+.triangleDownLeftAngleRed {
+  width: 50%;
+  height: 50px;
+  background: #c26b4b;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  margin-top: -50px;
+  opacity: 1;
+}
+
+.textOnBlack {
+  position: relative;
+}
+
+.textOnBlack {
+  position: absolute;
+  top: 101px;
+  left: 85px;
+  color: #f7f7f7;
+  font-size: 41px;
+}
+
+.textOnRightPhone {
+  position: absolute;
+  top: 988px;
+  left: 85px;
+  color: #f7f7f7;
+  font-size: 41px;
+}
