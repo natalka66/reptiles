@@ -17,14 +17,18 @@ body {
   flex-direction: row;
 }
 
-.headPosition {
+.head {
   height: 227px;
   position: relative;
 }
+
 .headRed {
-  background-color: #c26b4b;
-  flex-grow: 1;
   height: 227px;
+}
+
+.red {
+  background-color: #c26b4b;
+  width: 50%;
 }
 
 .headLogo {
@@ -37,9 +41,9 @@ body {
   margin-left: -175px;
 }
 
-.headBlack {
+.black {
   background-color: #000000;
-  flex-grow: 1;
+  width: 50%;
 }
 
 .triangleDownLeftAngle{
@@ -106,7 +110,8 @@ body {
   background-size: cover;
 }
 
-.headMargin {
+.beardedDragons,
+.otherReptiles {
   margin-top: -50px;
   height: 470px;
   position: relative;
@@ -260,11 +265,11 @@ body {
 }
 
 .textOnBlack {
-  position: absolute;
-  top: 101px;
-  left: 85px;
   color: #f7f7f7;
   font-size: 41px;
+  text-align: right;
+  width: 100%;
+  padding: 50px;
 }
 
 .textOnRightPhone {
@@ -273,4 +278,13 @@ body {
   left: 85px;
   color: #f7f7f7;
   font-size: 41px;
+}
+
+.location {
+  height: 470px;
+}
+
+.locationLeft {
+  display: flex;
+  align-items: center;
 }
