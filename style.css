@@ -242,15 +242,6 @@ body {
   color: #000000;
 }
 
-
-.triangleDownRightAngleBlack {
-  width: 50%;
-  height: 50px;
-  background: #000000;
-  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
-  margin-top: -50px;
-}
-
 .triangleDownLeftAngleRed {
   width: 50%;
   height: 50px;
@@ -261,30 +252,213 @@ body {
 }
 
 .textOnBlack {
+  color: #f7f7f7;
+  font-size: 72px;
+  text-align: right;
+  width: 100%;
+  padding: 50px;
   position: relative;
 }
 
-.textOnBlack {
+.textOnRightPhone {
   color: #f7f7f7;
   font-size: 41px;
-  text-align: right;
   width: 100%;
   padding: 50px;
 }
 
-.textOnRightPhone {
-  position: absolute;
-  top: 988px;
-  left: 85px;
-  color: #f7f7f7;
-  font-size: 41px;
-}
-
 .location {
-  height: 470px;
+  height: 370px;
 }
 
-.locationLeft {
+.locationLeft, .locationRight {
   display: flex;
   align-items: center;
+}
+
+.textRightName {
+  color: #eec15c;
+  font-size: 112px;
+}
+
+.triangleColorLocationLeft {
+  background: #000000;
+}
+
+.triangleColorLocationRight {
+  background: #c26b4b;
+}
+
+.map {
+  width: 100%;
+  height: 400px;
+  margin-top: -50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.mapBackGround {
+  background-image: url(pictures/map.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute ;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.textMap {
+  font-size: 150px;
+  width: 100%;
+  padding-top: 50px;
+  color: #000000;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+.triangleDownRightAngleYelow {
+  background-color: #eec35c;
+  width: 50%;
+  height: 50px;
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  margin-top: -50px;
+}
+
+.yellow{
+background-color: #eec35c;
+width: 50%;
+}
+
+.textStore {
+  color: #000000;
+  font-size: 52px;
+  text-align: right;
+  width: 100%;
+  position: relative;
+}
+
+.textMonday, .textSUNDAY {
+  color: #cb683d;
+  font-size: 52px;
+  text-align: right;
+  width: 100%;  
+  position: relative;
+}
+
+.textOnYellow {
+  width: 100%;
+  padding: 50px;
+}
+
+.textOnBlackAdres {
+  width: 100%;
+  padding: 50px;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-size: 52px;
+}
+
+.blackReptiles {
+  color: #eec35c;
+}
+
+.text34 {
+  color: #cb683d;
+}
+
+.triangleColorAdress {
+  background: #edc35c;
+}
+
+.triangleColorAdresRight {
+  background: #000000;
+}
+
+.triangleDownLeftAngleRed {
+  width: 50%;
+  height: 50px;
+  background: #cd6341;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  margin-top: -50px;
+}
+
+.triangleDownRightAngleRed {
+  width: 50%;
+  height: 50px;
+  background: #cd6341;
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  margin-top: -50px;
+}
+
+.RedFooter {
+  background-color: #cd6341;
+  width: 100%;
+  height: 600px;
+}
+
+.picture {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.googlePluse {
+  display: inline-block;
+}
+.googlePluseImg {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+}
+
+.facebook {
+  display: inline-block;
+}
+
+.facebookImg {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+}
+
+.instagram {
+  display: inline-block;
+}
+
+.instagramImg {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+}
+
+.fotterTextIn {
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.fotterTextInLove {
+  text-align: center;
+  color:  #000000;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.fotterText2018 {
+  text-align: center;
+  color:  #000000;
+  font-size: 60px;
+  padding-top: 30px;
+}
+
+.footerTextAll {
+  text-align: center;
+  color:  #000000;
+  font-size: 40px;
+  padding-top: 30px;
 }
