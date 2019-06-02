@@ -164,18 +164,20 @@ body {
   color: #e5bc57;
 }
 
-.triangleDownLeftAngleBlack{
+.triangleDownLeftAngle{
   width: 50%;
   height: 50px;
-  background: #000000;
   clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
   margin-top: -50px;
 }
 
-.triangleDownRightAngleBlack {
+.blackTriangle {
+  background: #000000;
+}
+
+.triangleDownRightAngle {
   width: 50%;
   height: 50px;
-  background: #000000;
   clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
   margin-top: -50px;
 }

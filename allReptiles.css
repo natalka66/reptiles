@@ -1,0 +1,267 @@
+.headAllText {
+  color: #edc45d;
+  font-size: 40px;
+  text-align: center;
+}
+
+.headText {
+  padding-top: 40px;
+}
+
+.greenTriangle {
+  background-color: #5f8b43;
+}
+
+.greenBackground {
+  background-color: #5f8b43;
+  width: 100%;
+  height: 330px;
+}
+
+.greenBackTextAll {
+  text-align: center;
+  color: #edc45d;
+  font-size: 150px;
+}
+
+.allLinks {
+  display: block;
+  text-align: center;
+
+}
+
+.chameleonsLink, .dragonsLink, .tortoises  {
+  display: inline-block;
+  font-size: 30px;
+  color: #faf8fa;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.pictureDivCamille {
+  background-image: url(pictures/camille.jpeg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.camilleRight {
+  color: #cb6142;
+  font-size: 108px;
+  width: 360px;
+}
+
+.rightPartPictureCamille {
+  background-color: #000000;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellowTriangle {
+  background-color: #edc35c;
+}
+
+.yellowAdvanced {
+  background-color: #ecc35c;
+  width: 100%;
+}
+
+.textYellowAdvanses {
+  text-align: center;
+  color: #ce6140;
+  font-size: 59px;
+  padding-top: 30px;
+}
+
+.textYellowBlack {
+  color: #000000;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.threePicture {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;
+}
+.pictureOne { 
+  background-image: url(pictures/1.jpeg);
+  flex:1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.pictureTwo {
+  background-image: url(pictures/2.jpeg);
+  flex:1;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
+}
+
+.pictureThree {
+  background-image: url(pictures/3.jpeg);
+  flex:1;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.yellowPartNoText{ 
+  background-color: #f3d587;
+  width: 100%;
+  height: 100px;
+}
+
+.lightYellowTriangle {
+  background-color: #f3d587;
+}
+
+.pictureDivBernardo {
+  background-image: url(pictures/bernardo.jpeg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rightPartPictureBernardoDragons {
+  background-color: #d27352;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beardedDragonsRight {
+  color: #e9c459;
+  font-size: 108px;
+  width: 360px;
+}
+
+.greenEasy {
+  background-color: #5f8b43;
+  width: 100%;
+}
+
+.textGreenEasy {
+  text-align: center;
+  color: #e8c359;
+  font-size: 59px;
+  padding-top: 30px;
+}
+
+.textCreenWhite {
+color: #fefefc;
+width: 100%;
+text-align: center;
+font-size: 30px;
+margin: 0 auto;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.pictureForth {
+  background-image: url(pictures/4.jpeg);
+  flex:1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pictureFive {
+  background-image: url(pictures/5.jpeg);
+  flex:1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pictureSix {
+  background-image: url(pictures/6.jpeg);
+  flex:1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.greenPartNoText {
+  background-color: #8eae7a;
+  width: 100%;
+  height: 100px;
+}
+
+.lightGreenTriangle {
+  background-color: #8eae7a;
+}
+
+.pictureTonca {
+  background-image: url(pictures/tortoise.jpeg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rightPartPictureTonca {
+  background-color: #edc35c;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toncaTextRight {
+  color: #d26943  ;
+  font-size: 108px;
+  width: 433px;
+}
+
+.orangeTriangle {
+  background-color: #d26943;
+}
+
+.orangeLife {
+  background-color: #d26943;
+  width: 100%;
+}
+
+.textOrangeLife {
+  text-align: center;
+  color: #edc259;
+  font-size: 59px;
+  padding-top: 30px;
+}
+
+.textOrangeWhite {
+color: #fefefc;
+width: 100%;
+text-align: center;
+font-size: 30px;
+margin: 0 auto;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.pictureSeven {
+  background-image: url(pictures/7.jpeg);
+  flex:1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pictureEight {
+  background-image: url(pictures/8.jpeg);
+  flex:1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pictureNine {
+  background-image: url(pictures/9.jpeg);
+  flex:1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
